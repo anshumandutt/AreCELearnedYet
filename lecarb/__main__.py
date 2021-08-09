@@ -52,7 +52,7 @@ from .estimator.mhist import test_mhist
 #from .estimator.feedback_kde import test_kde
 from .estimator.utils import report_errors, report_dynamic_errors
 #from .estimator.naru.naru import train_naru, test_naru, update_naru
-from .estimator.mscn.mscn import train_mscn, test_mscn
+#from .estimator.mscn.mscn import train_mscn, test_mscn
 from .estimator.lw.lw_nn import train_lw_nn, test_lw_nn
 from .estimator.lw.lw_tree import train_lw_tree, test_lw_tree
 from .estimator.deepdb.deepdb import train_deepdb, test_deepdb, update_deepdb
