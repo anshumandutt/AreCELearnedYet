@@ -153,13 +153,13 @@ if __name__ == "__main__":
         params = literal_eval(args["--params"])
         sizelimit = float(args["--sizelimit"])
 
-        if args["--estimator"] == "naru":
-            train_naru(seed, dataset, version, workload, params, sizelimit)
-        elif args["--estimator"] == "mscn":
-            train_mscn(seed, dataset, version, workload, params, sizelimit)
-        elif args["--estimator"] == "deepdb":
-            train_deepdb(seed, dataset, version ,workload, params, sizelimit)
-        elif args["--estimator"] == "lw_nn":
+        #if args["--estimator"] == "naru":
+        #    train_naru(seed, dataset, version, workload, params, sizelimit)
+        #elif args["--estimator"] == "mscn":
+        #    train_mscn(seed, dataset, version, workload, params, sizelimit)
+        #elif args["--estimator"] == "deepdb":
+        #    train_deepdb(seed, dataset, version ,workload, params, sizelimit)
+        if args["--estimator"] == "lw_nn":
             train_lw_nn(seed, dataset, version ,workload, params, sizelimit)
         elif args["--estimator"] == "lw_tree":
             train_lw_tree(seed, dataset, version ,workload, params, sizelimit)
@@ -182,16 +182,16 @@ if __name__ == "__main__":
             test_mysql(seed, dataset, version, workload, params, overwrite)
         elif args["--estimator"] == "mhist":
             test_mhist(seed, dataset, version, workload, params, overwrite)
-        elif args["--estimator"] == "bayesnet":
-            test_bayesnet(seed, dataset, version, workload, params, overwrite)
-        elif args["--estimator"] == "kde":
-            test_kde(seed, dataset, version, workload, params, overwrite)
-        elif args["--estimator"] == "naru":
-            test_naru(seed, dataset, version, workload, params, overwrite)
-        elif args["--estimator"] == "mscn":
-            test_mscn(dataset, version, workload, params, overwrite)
-        elif args["--estimator"] == "deepdb":
-            test_deepdb(dataset, version, workload, params, overwrite)
+        #elif args["--estimator"] == "bayesnet":
+        #    test_bayesnet(seed, dataset, version, workload, params, overwrite)
+        #elif args["--estimator"] == "kde":
+        #    test_kde(seed, dataset, version, workload, params, overwrite)
+        #elif args["--estimator"] == "naru":
+        #    test_naru(seed, dataset, version, workload, params, overwrite)
+        #elif args["--estimator"] == "mscn":
+        #    test_mscn(dataset, version, workload, params, overwrite)
+        #elif args["--estimator"] == "deepdb":
+        #    test_deepdb(dataset, version, workload, params, overwrite)
         elif args["--estimator"] == "lw_nn":
             test_lw_nn(dataset, version, workload, params, overwrite)
         elif args["--estimator"] == "lw_tree":
@@ -219,10 +219,10 @@ if __name__ == "__main__":
         params = literal_eval(args["--params"])
         overwrite = args["--overwrite"]
 
-        if args["--estimator"] == "naru":
-            update_naru(seed, dataset, version, workload, params, overwrite)
-        elif args["--estimator"] == "deepdb":
-            update_deepdb(seed, dataset, version, workload, params, overwrite)
-        else:
-            raise NotImplementedError
+        #if args["--estimator"] == "naru":
+        #    update_naru(seed, dataset, version, workload, params, overwrite)
+        #elif args["--estimator"] == "deepdb":
+        #    update_deepdb(seed, dataset, version, workload, params, overwrite)
+        #else:
+        #    raise NotImplementedError
         exit(0)
