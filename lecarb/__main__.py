@@ -48,10 +48,10 @@ from .estimator.sample import test_sample
 from .estimator.postgres import test_postgres
 from .estimator.mysql import test_mysql
 from .estimator.mhist import test_mhist
-from .estimator.bayesnet import test_bayesnet
-from .estimator.feedback_kde import test_kde
+#from .estimator.bayesnet import test_bayesnet
+#from .estimator.feedback_kde import test_kde
 from .estimator.utils import report_errors, report_dynamic_errors
-from .estimator.naru.naru import train_naru, test_naru, update_naru
+#from .estimator.naru.naru import train_naru, test_naru, update_naru
 from .estimator.mscn.mscn import train_mscn, test_mscn
 from .estimator.lw.lw_nn import train_lw_nn, test_lw_nn
 from .estimator.lw.lw_tree import train_lw_tree, test_lw_tree
