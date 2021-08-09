@@ -1,0 +1,208 @@
+    1  sudo apt-get install python3
+    2  sudo apt-get install python3.7
+    3  which python
+    4  cd /usr/bin/py
+    5  cd /usr/bin/
+    6  ls
+    7  /usr/bin/python3.7
+    8  pip install docopt
+    9  pip install torch
+   10  pip install numpy
+   11  pip3 install numpy
+   12  sudo apt-get install python3.7
+   13  python3.7 -m pip install package numpy
+   14  python -m ensurepip --default-pip
+   15  sudo apt-get install python3.7-pip
+   16  sudo apt-get install python-pip
+   17  python3.7 -m pip install pip
+   18  python3.7 -m  install pip
+   19  python3.7  install pip
+   20  python3.7 -m pip   install pip
+   21  sudo apt-get install python3-pip
+   22  python3.7 -m pip   install pip
+   23  python3.7 -m pip   install numpy
+   24  python3.7 -m pip   install pandas
+   25  python3.7 -m pip   install sklearn
+   26  python3.7 -m pip   install docopt
+   27  python3.7 -m pip   install psycopg2
+   28  python3.7 -m pip   install  mysql
+   29  python3.7 -m pip   install  mysql.connector
+   30  python3.7 -m pip   install  ray
+   31  sudo apt-get install postgres
+   32  sudo apt-get install postgresql
+   33  /usr/lib/postgresql/10/bin/pg_ctl -D /var/lib/postgresql/10/main -l logfile start
+   34  sudo /usr/lib/postgresql/10/bin/pg_ctl -D /var/lib/postgresql/10/main -l logfile start
+   35  su
+   36  sudo apt-get install postgresql
+   37  sudo apt-get install mysql-server
+   38  sudo apt-get install postgresql-contrib 
+   39  su -i -u postgres
+   40  su  -u postgres
+   41  su   postgres
+   42  sudo -u postgres
+   43  pg_ctl status
+   44  pg_ctl start
+   45  service postgresql status
+   46  sudo service postgresql status
+   47  sudo -u postgres psql
+   48  psql -U postgres -h localhost 
+   49  mysql
+   50  su mysql
+   51  sudo  mysql
+   52  mysql -u root -p
+   53  sudo mysql 
+   54  sudo  mysql
+   55  sudo  mysql -p
+   56  which mysql
+   57  which psql
+   58  sudo  mysql -p
+   59  psql -U postgres -h localhost 
+   60  psql -U postgres createdb card;
+   61  psql -U postgres createdb card -p admin;
+   62  sudo psql -U postgres createdb card
+   63  sudo -u postgres createdb card
+   64  sudo -u postgres 
+   65  sudo  postgres 
+   66  sudo -u  postgres psql
+   67  history > setup_andut.txt
+   68  cat setup_andut.txt 
+   69  curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to /usr/local/bin
+   70  sudo curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to /usr/local/bin
+   71  sudo curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to /usr/bin
+   72  su
+   73  su -
+   74  python3.7 -m pip   install  poetry
+   75  just -l
+   76  sudo curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to .
+   77  sudo ln -s just /usr/bin/
+   78  cd /usr/bin/
+   79  ls
+   80  ls just 
+   81  cd \
+   82  cd /
+   83  cd /home/andut/
+   84  ls
+   85  cd AreCELearnedYet/
+   86  ls
+   87  just install-dependencies
+   88  just -l
+   89  ./just -l
+   90  ./just install-dependencies
+   91  ./just csv2pkl sudo apt install curl
+   92  ./just csv2pkl sudo apt-get install curl
+   93  sudo apt-get install curl
+   94  curl -O https://www.dropbox.com/s/5bmvc1si5hysapf/data.tar.gz?dl=0
+   95  ls
+   96  curl -O https://www.dropbox.com/s/5bmvc1si5hysapf/data.tar.gz
+   97  curl -O 'https://www.dropbox.com/s/5bmvc1si5hysapf/data.tar.gz'
+   98  sudo apt-get install wget
+   99  wget https://www.dropbox.com/s/5bmvc1si5hysapf/data.tar.gz
+  100  ls
+  101  ls -al
+  102  rm data.tar.gz
+  103  ls -al
+  104  rm 'data.tar.gz?dl=0' 
+  105  ls -al
+  106  man tar
+  107  tar -xvzf data.tar.gz.1
+  108  cd data
+  109  ls
+  110  rm data.tar.gz.1
+  111  cd ..
+  112  rm data.tar.gz.1
+  113  ls -al
+  114  ./just csv2pkl data/census13/original.csv 
+  115  python3.7 -m pip   install pandas
+  116  cat setup_andut.txt 
+  117  history > setup_andut2.txt 
+  118  cat setup_andut2.txt 
+  119  ./just pkl2table census13 original
+  120  python3.7 -m pip   install  poetry
+  121  poetry
+  122  /usr/bin/poetry
+  123  which poetry
+  124  ssudo pthon3.7 -m pip   install  poetry
+  125  sudo pthon3.7 -m pip   install  poetry
+  126  sudo python3.7 -m pip   install  poetry
+  127  which poetry
+  128  ./just pkl2table census13 original
+  129  sudo python3.7 -m pip   install  docopt
+  130  ./just pkl2table census13 original
+  131  sudo python3.7 -m pip   install  docopt
+  132  ./just pkl2table census13 original
+  133  sudo ./just pkl2table census13 original
+  134  sudo apt-get install python3.7-docopt
+  135  sudo apt-get install python3-docopt
+  136  sudo ./just pkl2table census13 original
+  137  sudo apt-get install python3.7-docopt
+  138  sudo python3.7 -m pip   install  docopt
+  139  sudo ./just pkl2table census13 original
+  140  python -m lecarb dataset table -dcensus13 -voriginal 
+  141  python -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  142  python lecarb dataset table -dcensus13 -voriginal --overwrite
+  143  python3 lecarb dataset table -dcensus13 -voriginal --overwrite
+  144  python3  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  145  sudo python3.7 -m pip   install  typing_extensions
+  146  python3  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  147  sudo python3.7 -m pip   install  typing_extensions==3.7.4.1
+  148  python3  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  149  sudo python3 -m pip   install  typing_extensions==3.7.4.1
+  150  python3  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  151  sudo python3 -m pip   install  pandas
+  152  python3  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  153  sudo python3 -m pip   install  sklearn
+  154  python3  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  155  python3.7  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  156  history
+  157  history > setup_andut.txt 
+  158  python
+  159  python3.7
+  160  python3.7  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  161  sudo apt-get install python-dotenv
+  162  sudo apt-get install python3.7-dotenv
+  163  sudo apt-get install python3-dotenv
+  164  sudo python3 -m pip   install  dotenv
+  165  python3.7  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  166  sudo python3 -m pip   install  dotenv
+  167  sudo python3 -m pip   install  python-dotenv
+  168  sudo python3.7 -m pip   install  python-dotenv
+  169  sudo python3.7  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  170  sudo python3.7 -m pip   install  numpy
+  171  sudo python3.7  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  172  sudo python3.7 -m pip   install  pandas
+  173  sudo python3.7  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  174  sudo python3  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  175  sudo python3 -m pip   install  python-dotenv
+  176  sudo python3  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  177  sudo python3.7  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  178  python3.7 -m pip   install  pandas
+  179  python3.7 -m pip   install  torch
+  180  python3.7 -m pip   install  xgboost
+  181  python3.7 -m pip   install  psycopg2-binary
+  182  python3.7 -m pip   install  ray[default]
+  183  history
+  184  history > setup_andut.txt 
+  185  ./just pkl2table census13 original
+  186  ./just wkld-gen-base census13 original base
+  187  python -m lecarb workload gen -d{{data}} -v{{version}} -w{{name}} --params         "{'attr': {'pred_number': 1.0}, \
+        'center': {'distribution': 0.9, 'vocab_ood': 0.1}, \
+        'width': {'uniform': 0.5, 'exponential': 0.5}, \
+        'number': {'train': 100000, 'valid': 10000, 'test': 10000}}"
+  188  python3.7 -m lecarb workload gen -dcensus13 -voriginal -wbase --params         "{'attr': {'pred_number': 1.0}, \
+        'center': {'distribution': 0.9, 'vocab_ood': 0.1}, \
+        'width': {'uniform': 0.5, 'exponential': 0.5}, \
+        'number': {'train': 100000, 'valid': 10000, 'test': 10000}}"
+  189  train-lw-tree dataset='census13' version='original' workload='base' trees='16' bins='200' train_num='10000' sizelimit='0' seed='123':
+  190  python -m lecarb train -s{{seed}} -d{{dataset}} -v{{version}} -w{{workload}} -elw_tree --params         "{'trees': {{trees}}, 'bins': {{bins}}, 'train_num': {{train_num}}}" --sizelimit {{sizelimit}}
+  191  python3.7 lecarb train -s123 -dcensus13 -voriginal -wbase -elw_tree --params  "{'trees': 16, 'bins': 200, 'train_num': 100000}" --sizelimit 0
+  192  python3.7 -m lecarb train -s123 -dcensus13 -voriginal -wbase -elw_tree --params  "{'trees': 16, 'bins': 200, 'train_num': 100000}" --sizelimit 0
+  193  psql
+  194  sudo -u postgres psql
+  195  sudo python3.7 -m lecarb train -s123 -dcensus13 -voriginal -wbase -elw_tree --params  "{'trees': 16, 'bins': 200, 'train_num': 100000}" --sizelimit 0
+  196  python3.7 -m lecarb train -s123 -dcensus13 -voriginal -wbase -elw_tree --params  "{'trees': 16, 'bins': 200, 'train_num': 100000}" --sizelimit 0
+  197  python3.7  -m lecarb dataset table -dcensus13 -voriginal --overwrite
+  198  mysql
+  199  mysql -u root -p admin
+  200* 
+  201  history
+  202  history > setup_andut.txt 
