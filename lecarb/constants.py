@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-import torch
+#import torch
 
 DATA_ROOT = Path(os.environ["DATA_ROOT"])
 OUTPUT_ROOT = Path(os.environ["OUTPUT_ROOT"])

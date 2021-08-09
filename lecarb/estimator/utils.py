@@ -3,7 +3,7 @@ import ray
 import logging
 import numpy as np
 import pandas as pd
-import torch
+#import torch
 from scipy.stats.mstats import gmean
 
 #  from .lw.lw_nn import LWNN

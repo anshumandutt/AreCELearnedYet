@@ -55,7 +55,7 @@ from .estimator.utils import report_errors, report_dynamic_errors
 #from .estimator.mscn.mscn import train_mscn, test_mscn
 from .estimator.lw.lw_nn import train_lw_nn, test_lw_nn
 from .estimator.lw.lw_tree import train_lw_tree, test_lw_tree
-from .estimator.deepdb.deepdb import train_deepdb, test_deepdb, update_deepdb
+#from .estimator.deepdb.deepdb import train_deepdb, test_deepdb, update_deepdb
 from .workload.workload import dump_sqls
 
 if __name__ == "__main__":
